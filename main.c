@@ -149,7 +149,7 @@
         for (int i = 0; i < listaCamere.nrCamere; i++) {
             for (int j = 0; j < listaCamere.camere[i].facilitati.nrFacilitati; j++) {
                 if (strcmp(facilitate, listaCamere.camere[i].facilitati.nume[j]) == 0) {
-                    cautareCameraAfisareFacilitati(listaCamere, j);
+                    cautareCameraAfisareFacilitati(listaCamere, i);
                     printf("\n");
                     gasit = 1;
                 }
